@@ -23,7 +23,7 @@ function App() {
   )
   return (
     <>
-      <main className=' bg-[url(/patronbg4.svg)] bg-orange1 bg-opacity-10 bg-center'>
+      <main className='bg-blue1 bg-opacity-10 bg-center'>
         <Header />
         <Home />
         <Actividades />

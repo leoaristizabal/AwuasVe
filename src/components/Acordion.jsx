@@ -38,7 +38,7 @@ export default function Acordion() {
                                 {open ? <IoChevronUpCircleOutline className="w-5 h-5 text-blue1" /> : <IoChevronDownCircleOutline className="w-5 h-5 text-gray-500" />}
                             </DisclosureButton>
                             <DisclosurePanel className='bg-white p-4 border-l-2 border-blue2 rounded-sm mb-2'>
-                                <p className="text-gray-500">{item.content}</p>
+                                <p className="text-justify text-gray-500">{item.content}</p>
                             </DisclosurePanel>
                         </>
                     )}

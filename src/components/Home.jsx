@@ -19,11 +19,12 @@ const Home = () => {
         <div className='flex flex-col justify-center items-center relative z-10 lg:h-full h-screen max-w-[1320px] px-6 xl:pt-0 pt-16 mx-auto '>
           <img src="./logoHOME.png" className=' md:w-45 xl:max-w-[480px] max-w-[320px]' alt="" />
           
-          <div className="text-white text-center font-bold lg:text-xl uppercase pt-2 pb-0">
+          <div className="text-white text-center font-extrabold text-lg lg:text-xl uppercase pt-2 pb-0">
           <TypewriterComponent options={{
               strings: Slogan.slogan,
               autoStart: true,
               loop: true,
+              delaySpeed: 5,
             }}
             />
             </div>

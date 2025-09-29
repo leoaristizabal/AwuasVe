@@ -53,16 +53,16 @@ const Actividades = () => {
                 <div className='flex flex-col items-center'>
                     <div className='relative w-fit px-8 py-2 flex items-center justify-center'>
                         <span className='bg-orange1 rounded-md bg-opacity-70 absolute w-full h-full '></span>
-                        <h6 className='text-white relative font-semibold '>Cómo Podemos Ayudarte</h6>
+                        <h6 className='text-white relative font-bold '>Cómo Podemos Ayudarte</h6>
                     </div>
-                    <h3 className='lg:text-5xl text-3xl font-bold pb-8 text-center text-gray-700 py-4 '>Nuestros Servicios</h3>
+                    <h3 className='lg:text-5xl text-4xl font-extrabold pb-8 text-center text-gray-700 py-4 '>Nuestros Servicios</h3>
                 </div>
                 <div className='py-8'>
                     <Carousel
                         responsive={responsive}
                         infinite
                         autoPlay={true}
-                        itemClass="px-2"
+                        itemClass="px-2 border-xl shadow-lg rounded-md"
                         rtl={true} >
                         <ImagesCarrusel lugar="Lorem ipsum" image="/image1.png" />
                         <ImagesCarrusel lugar="Lorem Ipsum Dolor" image="/image2.png" />
