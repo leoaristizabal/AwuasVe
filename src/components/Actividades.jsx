@@ -24,9 +24,9 @@ const responsive = {
 };
 const ImagesCarrusel = ({ image, lugar }) => {
     return (
-        <div className=' relative group overflow-hidden rounded-[10px] shadow-lg cursor-pointer' >
+        <div className=' relative group overflow-hidden rounded-[10px] cursor-pointer' >
             <img src={image} alt={lugar} className='w-full h-[350px] object-cover rounded-[10px] transition-transform duration-700 ease-in-out group-hover:scale-125' />
-            <span className='absolute bg-orange1 bg-opacity-60 text-white rounded-lg px-5 text-xs top-5 right-5 group-hover:bg-opacity-90 font-bold leading-8 whitespace-pre transition-opacity duration-300'>@Repam1995</span>
+            <span className='absolute bg-orange1 bg-opacity-75 text-white rounded-lg px-5 text-xs top-5 right-5 group-hover:bg-opacity-90 font-bold leading-8 whitespace-pre transition-opacity duration-300'>@Repam1995</span>
             <div className='absolute bg-black bottom-0 w-full bg-opacity-50 py-5 flex flex-col items-center justify-center transition-all duration-300 group-hover:bg-white group-hover:bg-opacity-80'>
                 <p className='text-orange1 text-xl text-center font-bold flex flex-col'>Ponemos Manos a la Obra
                     <span className='text-white text-center text-2xl group-hover:text-gray-800'>{lugar}</span>
@@ -62,7 +62,7 @@ const Actividades = () => {
                         responsive={responsive}
                         infinite
                         autoPlay={true}
-                        itemClass="px-2 border-xl shadow-lg rounded-md"
+                        itemClass="px-2 border-xl  rounded-md"
                         rtl={true} >
                         <ImagesCarrusel lugar="Lorem ipsum" image="/image1.png" />
                         <ImagesCarrusel lugar="Lorem Ipsum Dolor" image="/image2.png" />
