@@ -8,10 +8,9 @@ const Footer = () => {
         <div className="container px-8 py-8 max-w-[1320px] mx-auto">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 ">
-              <img src='./logocompleto.svg' className="w-64 my-4" alt="Logo" />
-              <p>Valencia, Venezuela. </p>
+              <img src='./logofooter.png' className="lg:w-64 w-48 my-4" alt="Logo" />
               <div className="footer-social-links flex mt-8 text-2xl gap-4">
-                <a className='hover:text-4xl text-blue1 ' href="https://www.instagram.com/awuasve/">
+                <a className='hover:text-4xl text-blue1 ' href="https://www.instagram.com/repam1995/">
                   <FaInstagram />
                 </a>
                 <a className='hover:text-4xl text-blue1 ' href="#">
@@ -29,27 +28,26 @@ const Footer = () => {
             <div className="w-full lg:w-1/4 lg:ml-auto">
               <h6 className="text-gray-800 font-bold text-md mt-4 mb-2">CONTACTO</h6>
               <a href="#" className="flex hover:text-lg hover:text-blue1  items-center gap-2 footer-link block mb-1">
-                <FaWhatsapp /> +58 4245840624
+                <FaWhatsapp /> +58 4245989755
               </a>
               <a className="flex items-center hover:text-lg hover:text-blue1  gap-2 footer-link block mb-1">
-                <FaPhone /> +58 424123456
+                <FaPhone /> +58 4245989755
               </a>
-              <a href="mailto:pedidos@lacapitalcarniceria.com" className="flex items-center gap-2 hover:text-lg hover:text-blue1  footer-link block mb-1">
-                <FaEnvelope /> Correo@awuasve.com
+              <a href="mailto:rep.am1995@gmail.com" className="flex items-center gap-2 hover:text-lg hover:text-blue1  footer-link block mb-1">
+                <FaEnvelope /> Correo@repam1995.com
               </a>
               <p className="footer-link hover:text-blue1  block hover:text-blue1 hover:text-lg mb-1">
-                <a className="flex items-center hover:text-lg  gap-2 footer-link" href="https://www.instagram.com/awuasve/">
-                  <FaInstagram /> @AwuasVe
+                <a className="flex items-center hover:text-lg  gap-2 footer-link" href="https://www.instagram.com/repam1995/">
+                  <FaInstagram /> @Repam1995
                 </a>
               </p>
-              <p className="mb-0">Valencia, Venezuela.</p>
+              <p className="mb-0">Caracas, Venezuela.</p>
             </div>
 
             <div className="w-full lg:w-1/4 ">
               <h6 className="text-gray-800 font-bold text-md mt-3 mb-2">HORARIO</h6>
-              <p className="mb-1">Lunes: 9:00am - 4:00pm</p>
-              <p className="mb-1">Martes - Viernes: 9:00am - 2:00pm / 5:00pm - 9:00pm</p>
-              <p className="mb-1">Sábados: 9:00am - 4:00pm</p>
+              <p className="mb-1">Lunes - Viernes: 9:00am - 4:00pm</p>
+              <p className="mb-1">Sábados: Cerrado</p>
               <p>Domingo : Cerrado</p>
               <p className="mt-4">
                 <a className="footer-link" href="/PrivacyPolicyLaCapital.pdf">POLÍTICAS DE PRIVACIDAD</a>

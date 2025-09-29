@@ -93,13 +93,13 @@ const Product = ({ image, name, price, description, modelo }) => {
 
 const Products = ({ }) => {
     return (
-        <section className='container max-w-[1320px] mx-auto py-12' >
+        <section className='container max-w-[1320px] mx-auto px-8 py-12' >
             <div className="relative px-8 w-fit py-2 flex items-center justify-center">
                 <span className='bg-blue1 rounded-md bg-opacity-70 absolute w-full h-full z-10'>
                 </span>
                 <h6 className='text-white z-20 relative font-semibold'>Catalogo</h6>
             </div>
-            <h3 className='lg:text-5xl text-3xl font-bold pb-8 py-4'>Nuestros Productos</h3>
+            <h3 className='lg:text-5xl text-3xl font-bold pb-8 py-4 text-gray-700'>Nuestros Productos</h3>
             <div>
                 <Carousel
                     responsive={responsives}

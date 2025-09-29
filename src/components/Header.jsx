@@ -11,20 +11,20 @@ const Header = () => {
         setDropdown(!dropdown);
     };
     return (
-        <nav className='bg-blue1 bg-opacity-85 w-full h-24  flex flex-col justify-center items-center  fixed top-0 left-0 z-50'>
+        <nav className='bg-blue1 bg-opacity-75 w-full h-24  flex flex-col justify-center items-center  fixed top-0 left-0 z-50'>
 
             <div className='container m-auto lg:px-3 w-full'>
                 <div className='lg:w-full w-11/12 mx-auto h-full flex lg:justify-center items-center lg:gap-16 justify-between'>
                     <div className='flex flex-col gap-y-4'>
                         <div className='flex items-center gap-x-2'>
-                            <img className='w-10' src="/logoA.png" alt="LOGO AWUAS" />
+                            <img className='w-16' src="/logoblancoheader.png" alt="LOGO" />
                         </div>
                     </div>
                     <ul className='flex items-center xl:gap-12 gap-x-4 max-lg:hidden'>
                         <a href="#home" className='leading-normal no-underline text-white text-lg hover:text-hover'>Inicio</a>
+                        <a href="#servicios" className='leading-normal no-underline text-white text-lg hover:text-hover'>Servicios</a>
                         <a href="#nosotros" className='leading-normal no-underline text-white text-lg hover:text-hover'>Nosotros</a>
-                        <a href="#Productos" className='leading-normal no-underline text-white text-lg hover:text-hover'>Nuestros Productos</a>
-                        <a href="#Contacto" className='leading-normal no-underline text-white text-lg hover:text-hover'>Contácto</a>
+                        <a href="#Footer" className='leading-normal no-underline text-white text-lg hover:text-hover'>Contácto</a>
 
                     </ul>
                     <div className='flex gap-4 max-lg:hidden w-40 justify-center'>
@@ -52,8 +52,9 @@ const Header = () => {
                             <ul className='w-full flex flex-col justify-center'>
                                 <a href="#home" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Inicio</a>
                                 <a href="#nosotros" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Nosotros</a>
-                                <a href="#Productos" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Nuestros Productos</a>
-                                <a href="#Contacto" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Contácto</a>
+                                <a href="#servicios" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Servicios</a>
+                                
+                                <a href="#Footer" className='hover:text-[16px] text-white px-6 h-10 flex items-center leading-normal no-underline font-bold text-lg text-[10px] border-0  lue1 border-solid'>Contácto</a>
                             </ul>
 
                         </div>

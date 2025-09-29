@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import HomeCarrusel from './components/HomeCarrusel'
 import Actividades from './components/Actividades'
 import Nosotros from './components/Nosotros'
+import Pagomovill from './components/Pagomovill'
 
 
 function App() {
@@ -25,22 +26,20 @@ function App() {
       <main className=' bg-[url(/patronbg4.svg)] bg-orange1 bg-opacity-10 bg-center'>
         <Header />
         <Home />
-        <HomeCarrusel />
         <Actividades />
 
         <Nosotros />
-        <Products />
       </main>
-      <Aliados />
       <FloatingWhatsApp
-        phoneNumber='50762748970'
-        accountName='Awuas Ve'
-        avatar='/logowa.svg'
+        phoneNumber='584245989755'
+        accountName='Representaciones AM 1995 C.A.'
+        avatar='/logorep.png'
         statusMessage='En Línea'
         placeholder='Mensaje'
-        chatMessage='Hola! Gracias por escribir a Awuas, ¿Cómo podemos ayudarte?'
+        chatMessage='Hola! Gracias por escribir a Representaciones AM 1995, ¿Cómo podemos ayudarte?'
         
       />
+        <HomeCarrusel />
       <Footer />
 
     </>

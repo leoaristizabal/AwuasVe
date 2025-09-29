@@ -12,15 +12,15 @@ import {
 const items = [
     {
         title: "¿Quiénes Somos?",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ducimus ipsam beatae assumenda, molestiae fugiat porro error ex voluptate eaque."
+        content: "Somos una empresa multiservicios dedicada a ofrecer soluciones integrales a través de diferentes departamentos especializados.   Con un equipo de profesionales capacitados y una visión enfocada en la eficiencia, la innovación y la confianza, trabajamos para convertirnos en el aliado estratégico que ayude  a impulsar y fortalecer la infraestructura de nuestro país"
     },
     {
-        title: "¿Dónde Estamos Ubicados?",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ducimus ipsam beatae assumenda, molestiae fugiat porro error ex voluptate eaque."
+        title: "¿Cúal es nuestro objetivo?",
+        content: "Nuestro objetivo es simplificar las necesidades de nuestros clientes brindando productos y servicios de alta calidad en áreas como comercialización, mantenimiento, asesoría técnica y gestión ambiental"
     },
     {
-        title: "¿Hacemos entregas y envíos nacionales?",
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ducimus ipsam beatae assumenda, molestiae fugiat porro error ex voluptate eaque."
+        title: "¿Dónde estamos ubicados?",
+        content: "Caracas, Venezuela."
     },
     
 ]
@@ -33,11 +33,11 @@ export default function Acordion() {
                 <Disclosure key={index}>
                     {({ open }) => (
                         <>
-                            <DisclosureButton className={`w-full text-left bg-white rounded-sm p-4 flex items-center justify-between ${open ? 'border-l-2 border-orange1' : 'border mb-4'}`}>
+                            <DisclosureButton className={`w-full text-left bg-white rounded-sm p-4 flex items-center justify-between ${open ? 'border-l-2 border-blue1' : 'border mb-4'}`}>
                                 <span className="font-bold text-gray-600 text-lg">{item.title}</span>
-                                {open ? <IoChevronUpCircleOutline className="w-5 h-5 text-orange1" /> : <IoChevronDownCircleOutline className="w-5 h-5 text-gray-500" />}
+                                {open ? <IoChevronUpCircleOutline className="w-5 h-5 text-blue1" /> : <IoChevronDownCircleOutline className="w-5 h-5 text-gray-500" />}
                             </DisclosureButton>
-                            <DisclosurePanel className='bg-white p-4 border-l-2 border-orange1 rounded-sm mb-2'>
+                            <DisclosurePanel className='bg-white p-4 border-l-2 border-blue2 rounded-sm mb-2'>
                                 <p className="text-gray-500">{item.content}</p>
                             </DisclosurePanel>
                         </>

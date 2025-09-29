@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import {FaSnowflake } from 'react-icons/fa';;
+import { FaBookReader } from 'react-icons/fa';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { BiEdit, BiMedal } from 'react-icons/bi';
-import {SiTrustpilot } from 'react-icons/si';
-import { DiModernizr } from 'react-icons/di';
-
+import { FaTree } from 'react-icons/fa';
+import { FaPersonCircleCheck } from 'react-icons/fa6';
+import { IoIosCut } from 'react-icons/io';
+import { PiTestTubeFill } from 'react-icons/pi';
 
 const responsives = {
   superLargeDesktop: {
@@ -27,11 +27,11 @@ const responsives = {
 };
 
 const TiposAventuras = [
-  { title: "Materiales de Primera", icon: <BiMedal/> },
-  { title: "+6h Frío, +4h Calor", icon: <FaSnowflake /> },
-  { title: "Comfort + Durabilidad", icon: <SiTrustpilot/> },
-  { title: "Diseños Modernos", icon: <DiModernizr/> },
-  { title: "Termos Personalizables", icon: <BiEdit /> },
+  { title: "Poda, Tala y Rocería", icon: <IoIosCut/> },
+  { title: "Servicios Ambientales", icon: <FaTree /> },
+  { title: "Asesoría Especializadas", icon: <FaBookReader/> },
+  { title: "Alto Stock de Productos", icon: < PiTestTubeFill  /> },
+  { title: "Gestion de Personal", icon: <FaPersonCircleCheck /> },
 ];
 
 const HomeCarrusel = () => {
@@ -43,7 +43,7 @@ const HomeCarrusel = () => {
 
   return (
     <section >
-      <div className='relative z-10 max-w-[1320px] px-6 mx-auto xl:-mt-28 -mt-48'>
+      <div className='relative z-10 max-w-[1320px] px-6 mx-auto py-4'>
         <Carousel 
           responsive={responsives} 
           infinite 
@@ -53,10 +53,10 @@ const HomeCarrusel = () => {
         >
           {TiposAventuras.map((item, index) => (
             <div key={index} className="group border rounded-lg">
-              <div className={`cursor-pointer p-8 rounded-lg flex flex-col justify-center items-start gap-4 ${
+              <div className={`cursor-pointer p-8 rounded-lg flex flex-col justify-center items-start bg-orange1 gap-4 ${
                 currentSlide % TiposAventuras.length === index 
-                  ? 'bg-blue1 bg-opacity-80 text-white' 
-                  : 'bg-white bg-center text-blue1 group-hover:bg-blue1 group-hover:bg-opacity-60 group-hover:text-white'
+                  ? 'bg-blue1 bg-opacity-75 text-white' 
+                  : 'bg-white bg-center text-blue1 group-hover:bg-orange1 group-hover:bg-opacity-60 group-hover:text-white'
               }`}>
                 <p className={`font-bold text-lg ${
                   currentSlide % TiposAventuras.length === index

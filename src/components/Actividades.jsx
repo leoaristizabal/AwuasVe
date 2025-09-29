@@ -26,9 +26,9 @@ const ImagesCarrusel = ({ image, lugar }) => {
     return (
         <div className=' relative group overflow-hidden rounded-[10px] shadow-lg cursor-pointer' >
             <img src={image} alt={lugar} className='w-full h-[350px] object-cover rounded-[10px] transition-transform duration-700 ease-in-out group-hover:scale-125' />
-            <span className='absolute bg-orange1 bg-opacity-60 text-white rounded-lg px-5 text-xs top-5 right-5 group-hover:bg-opacity-90 font-bold leading-8 whitespace-pre transition-opacity duration-300'>@AwuasVe</span>
+            <span className='absolute bg-orange1 bg-opacity-60 text-white rounded-lg px-5 text-xs top-5 right-5 group-hover:bg-opacity-90 font-bold leading-8 whitespace-pre transition-opacity duration-300'>@Repam1995</span>
             <div className='absolute bg-black bottom-0 w-full bg-opacity-50 py-5 flex flex-col items-center justify-center transition-all duration-300 group-hover:bg-white group-hover:bg-opacity-80'>
-                <p className='text-orange1 text-xl text-center font-bold flex flex-col'>Te Acompañamos
+                <p className='text-orange1 text-xl text-center font-bold flex flex-col'>Ponemos Manos a la Obra
                     <span className='text-white text-center text-2xl group-hover:text-gray-800'>{lugar}</span>
                 </p>
                 <div className='absolute -top-5 right-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
@@ -53,22 +53,23 @@ const Actividades = () => {
                 <div className='flex flex-col items-center'>
                     <div className='relative w-fit px-8 py-2 flex items-center justify-center'>
                         <span className='bg-orange1 rounded-md bg-opacity-70 absolute w-full h-full '></span>
-                        <h6 className='text-white relative font-semibold '>Tu mejor compañia en</h6>
+                        <h6 className='text-white relative font-semibold '>Cómo Podemos Ayudarte</h6>
                     </div>
-                    <h3 className='lg:text-5xl text-3xl font-bold pb-8 text-center py-4 '>Tus Mejores Momentos</h3>
+                    <h3 className='lg:text-5xl text-3xl font-bold pb-8 text-center text-gray-700 py-4 '>Nuestros Servicios</h3>
                 </div>
                 <div className='py-8'>
                     <Carousel
                         responsive={responsive}
                         infinite
                         autoPlay={true}
-                        itemClass="px-2" >
-                        <ImagesCarrusel lugar="A la Playa" image="/image1.jpeg" />
-                        <ImagesCarrusel lugar="En Tus Partidas de Padel" image="/image2.jpeg" />
-                        <ImagesCarrusel lugar="A la Ofi" image="/image3.jpeg" />
-                        <ImagesCarrusel lugar="En Tus Días de Relax" image="/image4.jpeg" />
-                        <ImagesCarrusel lugar="En Los Chismecitos" image="/image5.jpeg" />
-                        <ImagesCarrusel lugar="A Tomar el Sol" image="/image6.jpeg" />
+                        itemClass="px-2"
+                        rtl={true} >
+                        <ImagesCarrusel lugar="Lorem ipsum" image="/image1.png" />
+                        <ImagesCarrusel lugar="Lorem Ipsum Dolor" image="/image2.png" />
+                        <ImagesCarrusel lugar="Lorem Ipsu Dolor" image="/image3.png" />
+                        <ImagesCarrusel lugar="Lorem Ipsu Dolor" image="/image4.png" />
+                        <ImagesCarrusel lugar="Lorem Ipsu Dolor" image="/image5.png" />
+                        <ImagesCarrusel lugar="Lorem Ipsu Dolor" image="/image6.jpg" />
                     </Carousel>
 
                 </div>

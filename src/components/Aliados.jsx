@@ -26,22 +26,23 @@ const Aliados = () => {
             <div className='flex flex-col items-center'>
                 <div className='relative w-fit px-8 py-2 flex items-center justify-center'>
                 </div>
-                <h3 className='lg:text-2xl text-lg font-bold pb-8 text-center py-4 '>¿Dónde Encontrar Nuestros Productos?</h3>
+                <h3 className='lg:text-2xl text-lg font-bold pb-8 text-center text-blue1 text-opacity-60 py-4 '>¿Dónde Encontrar Nuestros Productos?</h3>
             </div>
-                <Carousel responsive={responsives} infinite autoPlay={true} itemClass='px-4'>
-                    <div className='h-[298px] relative overflow-hidden cursor-pointer'>
+                <Carousel responsive={responsives} infinite autoPlay={true} itemClass='px-0' transitionDuration={750} 
+                    rtl={true}>
+                    <div className='h-[260px] relative overflow-hidden cursor-pointer'>
                         <img src='/aliados1.jpg' className='rounded-lg h-full object-cover hoverImg' alt="" />
                     </div>
-                    <div className='h-[298px] relative overflow-hidden cursor-pointer'>
+                    <div className='h-[260px] relative overflow-hidden cursor-pointer'>
                         <img src='/aliados2.jpg' className='rounded-lg h-full object-cover hoverImg' alt="" />
                     </div>
-                    <div className='h-[298px] relative overflow-hidden cursor-pointer'>
+                    <div className='h-[260px] relative overflow-hidden cursor-pointer'>
                         <img src='/aliados3.jpg' className='rounded-lg h-full object-cover hoverImg' alt="" />
                     </div>
-                    <div className='h-[298px] relative overflow-hidden cursor-pointer'>
+                    <div className='h-[260px] relative overflow-hidden cursor-pointer'>
                         <img src='/aliados4.jpg' className='rounded-lg h-full object-cover hoverImg' alt="" />
                     </div>
-                    <div className='h-[298px] relative overflow-hidden cursor-pointer'>
+                    <div className='h-[260px] relative overflow-hidden cursor-pointer'>
                         <img src='/aliados5.jpg' className='rounded-lg h-full object-cover hoverImg' alt="" />
                     </div>
                 </Carousel>

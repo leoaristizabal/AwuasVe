@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         hover: "#b2cce3",
-        blue1: "#61CAC6",
-        blue2: "#B2CCE3",
+        blue1: "#3694ed",
+        blue2: "#7375eeff",
         red1:"#ff103d",
-        orange1: "#f2b705",
+        orange1: "#fead2c",
       },
       boxShadow: {
         'xl': '0px 10px 60px 0px rgba(0,0,0,0.15)',
